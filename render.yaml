@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: candid-tech-form
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: EMAIL
+        value: olacandid@gmail.com
+      - key: EMAIL_PASS
+        value: oelefhzclovqzuzu
